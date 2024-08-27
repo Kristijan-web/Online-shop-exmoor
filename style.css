@@ -15,6 +15,7 @@ header {
     color: white;
     height: 80px;
 }
+
 nav {
     grid-column: 2/-1;
     justify-self: end;
@@ -25,7 +26,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
 
 }
 a {
