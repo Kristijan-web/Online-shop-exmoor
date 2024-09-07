@@ -33,3 +33,38 @@ a {
     text-decoration: none;
     color: white;   
 }
+
+/* Stilizovanje thumbnail-a */
+
+/* 
+font-size 10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
+spacing  system 2/4/8/12/16/24/32/48/64/80/96/128 
+*/
+
+
+.thumbnailSection {
+    position: relative;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;   
+    /* ideja: vrati contain, samo text EXMOOR pomeri preko @media i tjt */
+    /* background-size: contain;  */
+    /* background-position: right center;  */
+    width: 100%;
+    height: 88.6vh;
+    
+}
+
+.thumbnailSection div {
+    position: absolute;
+    top: 240px;;
+    left: 110px;
+}
+
+.thumbnailSection div p:first-child {
+    font-weight: 700;
+    font-size: 98px;
+}
+.thumbnailSection div p:last-child {
+    font-size: 20px;
+    font-weight: 500;
+}
